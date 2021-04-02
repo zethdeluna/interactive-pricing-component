@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/interactive-pricing-component/static/css/main.a7e7a186.chunk.css",
+    "main.js": "/interactive-pricing-component/static/js/main.7a9e0c3e.chunk.js",
+    "main.js.map": "/interactive-pricing-component/static/js/main.7a9e0c3e.chunk.js.map",
+    "runtime-main.js": "/interactive-pricing-component/static/js/runtime-main.d140b8a6.js",
+    "runtime-main.js.map": "/interactive-pricing-component/static/js/runtime-main.d140b8a6.js.map",
+    "static/js/2.13abd8e1.chunk.js": "/interactive-pricing-component/static/js/2.13abd8e1.chunk.js",
+    "static/js/2.13abd8e1.chunk.js.map": "/interactive-pricing-component/static/js/2.13abd8e1.chunk.js.map",
+    "static/js/3.ae338fbf.chunk.js": "/interactive-pricing-component/static/js/3.ae338fbf.chunk.js",
+    "static/js/3.ae338fbf.chunk.js.map": "/interactive-pricing-component/static/js/3.ae338fbf.chunk.js.map",
+    "index.html": "/interactive-pricing-component/index.html",
+    "static/css/main.a7e7a186.chunk.css.map": "/interactive-pricing-component/static/css/main.a7e7a186.chunk.css.map",
+    "static/js/2.13abd8e1.chunk.js.LICENSE.txt": "/interactive-pricing-component/static/js/2.13abd8e1.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/interactive-pricing-component/static/media/Manrope-SemiBold.26ad6bf1.ttf",
+    "static/media/Mobile.scss": "/interactive-pricing-component/static/media/pattern-circles.9f6ed14b.svg",
+    "static/media/icon-check.83c38a48.svg": "/interactive-pricing-component/static/media/icon-check.83c38a48.svg",
+    "static/media/PricingMobile.scss": "/interactive-pricing-component/static/media/icon-slider.cbca35e0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d140b8a6.js",
+    "static/js/2.13abd8e1.chunk.js",
+    "static/css/main.a7e7a186.chunk.css",
+    "static/js/main.7a9e0c3e.chunk.js"
+  ]
+}
