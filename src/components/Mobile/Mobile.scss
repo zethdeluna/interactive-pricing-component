@@ -1,0 +1,49 @@
+// 
+// Mobile Version Style
+// 
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#mobileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 55px;
+    background-image: url('../../images/bg-pattern.svg');
+    background-repeat: no-repeat;
+
+    #headerMobile {
+        width: 290px;
+        height: 145px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('../../images/pattern-circles.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        h1 {
+            font-size: 20px;
+            font-weight: 800;
+            color: hsl(227, 35%, 25%);
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 12px;
+            font-weight: 600;
+            color: hsl(225, 20%, 60%);
+            line-height: 20px;
+            letter-spacing: 0.5px;
+        }
+    }
+}
