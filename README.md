@@ -61,7 +61,11 @@ useEffect(() => {
     progressRef.current.style.width = `${pixels}px`;
 });
 ```
-I used `React.useRef()` to refer to the `span`. Then, within the `useEffect()` hook I calculate the percentage that the slider thumb as moved down the slider and multiplied that by the length of the slider minus the width of the thumb. This would give the correct length of the slider progress.
+I used `React.useRef()` to refer to the `span`. Then, within the `useEffect()` hook I calculate the percentage that the slider thumb as moved down the slider and multiplied that by the length of the slider minus the width of the thumb. This would give the correct length of the slider progress. Some screenshots of the resulting slider are shown below:
+
+<img src="https://raw.githubusercontent.com/zethdeluna/interactive-pricing-component/main/src/images/slider-0.png">
+<img src="https://raw.githubusercontent.com/zethdeluna/interactive-pricing-component/main/src/images/slider-half.png">
+<img src="https://raw.githubusercontent.com/zethdeluna/interactive-pricing-component/main/src/images/slider-full.png">
 
 ### Continued development
 
