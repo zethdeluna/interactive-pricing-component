@@ -48,27 +48,20 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+My key takeaway from doing this project was learning how to build a custom range slider using CSS (SCSS) and a touch of JavaScript. The styling of the slider was fairly straightforward, but I had a lot of fun trying to figure out how to add a "progress" feature to the slider (i.e. the slider track on the left side of the slider thumb becomes a different color when moved further down the track). Firefox and Internet Explorer had built in styles for this, but I was surprised that the 2 most used browsers, Google Chrome and Safari, had no easy way to add a progress color to the slider. I spent hours on Google and Stack Overflow trying to find a way to display this progress feature on webkit browsers (Chrome and Safari).
 
-To see how you can add code snippets, see below:
+My solution to adding a progress feature to the range slider on webkit browsers ended up being incredibly simple. I placed an empty `span` element on top of the range slider and used React Hooks to set its length based on the position of the slider.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+```javascript
+const progressRef = useRef();
+useEffect(() => {
+    const val = option / 4;
+    const pixels = val * 405;
+
+    progressRef.current.style.width = `${pixels}px`;
+});
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I used `React.useRef()` to refer to the `span`. Then, within the `useEffect()` hook I calculate the percentage that the slider thumb as moved down the slider and multiplied that by the length of the slider minus the width of the thumb. This would give the correct length of the slider progress.
 
 ### Continued development
 
